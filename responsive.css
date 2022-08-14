@@ -64,7 +64,7 @@
     }
 }
 @media (max-width: 575px){
-    hero_con_main{
+    .hero_con_main{
         display: block;
     }
     .hero_con,
@@ -91,7 +91,7 @@
         text-align: center;
     }
     .about_con_inner_main{
-        justify-content: center;
+        
         padding-top: 20px;
     }
 
