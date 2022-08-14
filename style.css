@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+ul,ol{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+/* common css part end */
+
+
+.header_part{
+    background: #f1f1f1;
+   
+}
+
+.gap_area{
+    max-width: 80%;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 15px;
+}
+.menu ul li a{ 
+    padding: 15px 20px;
+    display: block;
+}
+.menu ul li a:hover{
+    background: #f00;
+    color: #fff;
+}
+.menu ul li{
+    position: relative;
+}
+.menu ul li .dropmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #f1f1f1;
+}
+.menu ul li:hover .dropmenu {
+    display: block;
+}
+.menu ul li .dropmenu li a{
+    padding: 15px 10px;
+}
+
+
+
+
+.hero_part{
+    padding: 190px 0 0;
+    background: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?size=626&ext=jpg&uid=R76475390&ga=GA1.2.1558131296.1659908477);
+    background-size: cover;
+    background-position: center;
+}
+.hero_con_main{
+    display: flex;
+}
+.hero_con,
+.hero_img{
+    width: 50%;
+    
+}
+.hero_img{
+    text-align: right;
+    
+   
+}
+.hero_con h1{
+    font-size: 60px;
+}
+.hero_con h4{
+    font-size: 24px;
+}
+.hero_con p{
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+.hero_con_btn{
+    height: 55px;
+    width: 220px;
+    background: rgb(13, 0, 79);
+    display: block;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+}
+
+
+
+.about_part{
+    padding: 60px 0;
+}
+.about_head{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 36px;
+}
+.about_con_main{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+.about_con{
+    width: 50%;
+}
+.about_con h3{
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+.about_con p{
+    font-size: 20px;
+}
+.about_con .pt{
+    padding-top: 8px;
+}
+.about_con_inner_main{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    padding: 5px 0;
+}
+.about_icon{
+    height: 40px;
+    width: 40px;
+    background: rgb(13, 0, 79);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.service_part{
+    background: #f1f1f1;
+}
+.service_con_main{
+    display: flex;
+    column-gap: 24px;
+}
+.service_con{
+    padding: 15px 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px -7px black;
+    border-radius: 5px;
+}
+.ser_icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(13, 0, 79);
+    margin: 0 auto 10px;
+    line-height: 50px;
+    color: #fff;
+}
+.service_con h3{
+    font-size: 26px;
+}
+.service_con p{
+    font-size: 18px;
+}
+
+
+
+
+
+.port_con_main{
+    display: flex;
+    column-gap: 24px;
+}
+.port_con{
+    width: 25%;
+}
+.port_con img{
+    width: 100%;
+    
+}
+
+
+
+
+.footer_part{
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+.application_form{
+    padding: 80px 0;
+    background:url(https://cdn.pixabay.com/photo/2022/07/28/06/25/road-7349232_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.form_con_main{
+    background: transparent;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    padding: 15px 20px;
+}
+
+.form_con_head h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.form_input {
+    padding: 10px 0;
+    position: relative;
+     
+}
+.form_input p{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+.form_input input:focus ~ p{
+    top: 10%;
+    font-size: 16px;
+}
+.form_input input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+}
+.form_input button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(238, 216, 119);
+    font-size: 26px
+    
+}

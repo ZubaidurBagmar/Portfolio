@@ -1,0 +1,134 @@
+@media (min-width:1400px) {}
+@media (min-width:1200px) and (max-width: 1399px){}
+@media (min-width:992px) and (max-width: 1199px){}
+@media (min-width:768px) and (max-width: 991px){
+    .application_form{
+        background-attachment: scroll;
+    }
+}
+@media (min-width:576px) and (max-width: 767px){
+    .hero_con_main{
+        display: block;
+    }
+    .hero_con,
+    .hero_img{
+    width: 100%;
+    
+    }
+    .hero_con{
+        text-align: center;
+    }
+    .hero_con a{
+        margin: 0 auto;
+    }
+    .hero_img{
+        padding: 20px;
+    }
+
+
+
+    .about_con_main{
+        display: block;
+    }
+    .about_con{
+        width: 100%;
+        text-align: center;
+    }
+    .about_con_inner_main{
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+
+    .service_con_main{
+        display: block;
+    }
+    .service_con{
+        width: 100%;
+        margin: 15px 0;
+    }
+
+
+    .port_con_main{
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+    .port_con{
+        width: calc(50% - 24px);
+    }
+
+
+    .application_form{
+        background-attachment: scroll;
+    }
+}
+@media (max-width: 575px){
+    hero_con_main{
+        display: block;
+    }
+    .hero_con,
+    .hero_img{
+    width: 100%;
+    
+    }
+    .hero_con{
+        text-align: center;
+    }
+    .hero_con a{
+        margin: 0 auto;
+    }
+    .hero_img{
+        padding: 20px;
+    }
+
+
+    .about_con_main{
+        display: block;
+    }
+    .about_con{
+        width: 100%;
+        text-align: center;
+    }
+    .about_con_inner_main{
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+
+
+    .service_con_main{
+        display: block;
+    }
+    .service_con{
+        width: 100%;
+        margin: 15px 0;
+    }
+
+
+    .port_con_main{
+        display: block;
+    }
+    .port_con{
+        width: 100%;
+    }
+
+
+
+    .application_form{
+        background-attachment: scroll;
+    }
+    .form_con_main{
+        width: 200px;
+        height: 200px;
+    }
+    .form_con_head h3 {
+        font-size: 22px;
+    }
+    .form_input p{
+        font-size: 14px;
+    }
+    .form_input{
+        padding: 5px 0;
+    }
+}
